@@ -1,7 +1,23 @@
 <div class="row">
   <div class="shadow-lg col-sm-4 p-3" style="width: 20rem;">    
       <div class="card"  style="width: 18rem;">
-          <img class="card-img-top" src="assets/images/house1.jpg"/>
+          <div class="card-img-wrapper" >
+            <img *ngIf="propertyitem.Image" class="card-img-top" src="assets/images/{{propertyitem.Image}}.jpg"/>
+            <img *ngIf="!propertyitem.Image" class="card-img-top" src="assets/images/prop-1.jpg"/>
+
+            <ul class="list-inline text-center member-icons animate">
+              <li class="list-inline-item">
+                <button class="btn btn-primary" routerLink="/property-detail/{{propertyitem.Id}}">
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </button></li>
+              <li class="list-inline-item">
+                <button class="btn btn-primary">
+                  <i class="fa-light fa-address-book"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+                     
           <div class="card-body p-1">
               <h2> {{propertyitem.Name}}</h2>
               <h3> {{propertyitem.Price}}</h3>

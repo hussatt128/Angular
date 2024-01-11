@@ -1,0 +1,56 @@
+[
+    {
+      "Id": 1,
+      "SellRent": 1,
+      "Name": "House 1",
+      "Price": 120000,
+      "Type": "House",
+      "Location": "Rural",
+      "Image":"prop-1"
+    },
+    {
+      "Id": 2,
+      "SellRent": 2,
+      "Name": "House 2",
+      "Price": 125000,
+      "Type": "Villa",
+      "Location": "Rural",
+      "Image":"prop-2"
+    },
+    {
+      "Id": 3,
+      "SellRent": 1,
+      "Name": "House 3",
+      "Price": 130000,
+      "Type": "Flat",
+      "Location": "Urban",
+      "Image":"prop-3"
+    },
+    {
+      "Id": 4,
+      "SellRent": 1,
+      "Name": "House 4",
+      "Price": 145000,
+      "Type": "House",
+      "Location": "Urban",
+      "Image":"prop-4"
+    },
+    {
+      "Id": 5,
+      "SellRent": 2,
+      "Name": "House 5",
+      "Price": 150000,
+      "Type": "Villa",
+      "Location": "Urban",
+      "Image":"prop-5"
+    },
+    {
+      "Id": 6,
+      "SellRent": 1,
+      "Name": "House 6",
+      "Price": 250000,
+      "Type": "Flat",
+      "Location": "Urban",
+      "Image":"prop-6"
+    }
+  ]
